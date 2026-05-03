@@ -1,0 +1,37 @@
+.sample{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+header{
+    background-color: aqua;
+    color:rgb(228,55,55);
+    height: 100px;
+}
+footer{
+    background-color: brown;
+    color: rgb(247,240,240);
+    height: 100px;
+}
+.maincontainer{
+    display: flex;
+    flex: 1;
+    gap: 10px; 
+}
+nav{
+    background-color: lime;
+    width: 20%;
+    color:rgb(247,240,240)
+}
+main{
+    flex: 1;
+    background-color:rgb(228,55,55);
+    width:60% ;
+    color:  rgb(253,251,251) ;
+}
+aside{
+    background-color: blue;
+    width: 20%;
+    color:  rgb(253,251,251) ;
+}
